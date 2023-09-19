@@ -13,9 +13,9 @@ const makeDark = () => {
         if (/share*/.test(div.className) || /pdf*/.test(div.className) || /whiteboard*/.test(div.className) || /wb*/.test(div.className)) {
             continue
         }
-        div.style.backgroundColor = '#111111'
-        div.style.borderColor = 'black'
-        div.style.scrollbarColor = 'dark'
+        div.style.backgroundColor = '#edcbd4'
+        div.style.borderColor = '#DFBEC7'
+        div.style.scrollbarColor = '#d48198'
         div.style.color = 'white'
     }
 }
